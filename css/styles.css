@@ -4,4 +4,73 @@ body{
 	height: 100%;
 	background-image: url("../img/background.jpg");
 	background-size: cover;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+}
+.forgetPass{
+	color: white;
+	transition: all linear 0.15s;
+}
+.forgetPass:hover{
+	color: black;
+}
+.div-center{
+	padding-top: 2px;
+}
+.center{
+	text-align: center;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.homeForm{
+	color: white;
+	border: 5px solid white;
+	background-color: rgba(0,0,0,0);
+	padding: 5px;
+	width: 15em;
+	margin-bottom: 10px;
+}
+.homeForm:focus {
+	outline:none;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+.logInButton{
+	background-color: white;
+	border: 5px solid white;
+	width: 120px;
+	height: 40px;
+	color: gray;
+	box-shadow: none;
+	transition: all linear 0.15s;
+	display: inline-block;
+}
+.logInButton:hover{
+	border: 5px solid gray;
+	color: gray;
+}
+hr{
+	color: white;
+	border-width: 5px;
+	border-color: white;
 }
